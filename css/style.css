@@ -1,7 +1,15 @@
 html{
     scroll-padding-top: 56px;
 }
+body {
+    overflow-x: hidden;
+}
 
+/* Ensure container is properly sized */
+.container {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
 .navbar-nav .nav-link.active{
     color:#fff;
     font-size:20px;
